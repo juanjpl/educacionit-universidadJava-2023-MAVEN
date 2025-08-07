@@ -1,22 +1,22 @@
 package ar.com.educacionit.entities;
 
 import java.util.Objects;
-import java.util.UUID;
 
 public class AddressBook {
 
-	private UUID id;
+	private String id;
 	private String name;
 	private String email;
 	
 	
-	public AddressBook(UUID uuid, String name, String email) {
-		super();
+	public AddressBook(String uuid, String name, String email) {
+	
 		this.id = uuid;
 		this.name = name;
 		this.email = email;
 	}
-
+	
+	
 
 	public String getId() {
 		return id;
